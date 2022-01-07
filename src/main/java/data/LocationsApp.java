@@ -30,13 +30,19 @@ public class LocationsApp {
                             .collect(Collectors.joining("\n", "Found places:\n", "\nEnter the id of place for details: "));
 
                     return input.readLine(placesAsString)
-                            .map(idStr -> {
+                            .flatMap(idStr -> {
                                 int osmId = Integer.parseInt(idStr);
 
                                 Hit selectedPlace = places.stream()
                                         .filter(place -> place.osmId == osmId)
                                         .findFirst()
                                         .get();
+
+                                return repository.getWeather(selectedPlace.point.lat, selectedPlace.point.lng).map(weather -> {
+                                    System.out.println("Temperature at place: " + weather.temp);
+
+                                    return true;
+                                });
 
                                 // TODO
                                 /*
@@ -47,9 +53,6 @@ public class LocationsApp {
                                 // choose place -> weather
                                 //              | -> get interesting places (list) -> get description for place 1 | -> show to user
                                 //                                                 -> get description for place n |
-                                System.out.println("Selected place: " + selectedPlace.name);
-
-                                return selectedPlace;
                             });
                 })
                 .toCompletable()

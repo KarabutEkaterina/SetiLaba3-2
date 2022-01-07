@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6197f5e6-3d8c-4451-bf4d-9a3c64135dbe" name="Default Changelist" comment="" />
+    <list default="true" id="6197f5e6-3d8c-4451-bf4d-9a3c64135dbe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/data/network/ApiFactoryUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data/network/weather/Weather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data/network/weather/WeatherApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data/network/weather/WeatherApiFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data/network/weather/WeatherResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/LocationsApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/LocationsApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/LocationsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/LocationsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/network/geocoding/GeocodingApiFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/network/geocoding/GeocodingApiFactory.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +30,23 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SetiLaba3" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -27,6 +56,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -43,6 +75,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="23Kaf2x7IIhCBTWOzBQBbw543gA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -51,21 +84,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/data/network/weather" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/data/network/weather" />
+    </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
       <recent name="data.network.geocoding" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="SetiLaba3.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -75,6 +105,13 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="SetiLaba3.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,6 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1641485333701</updated>
       <workItem from="1641485337686" duration="8663000" />
+      <workItem from="1641553173747" duration="2836000" />
     </task>
     <servers />
   </component>
