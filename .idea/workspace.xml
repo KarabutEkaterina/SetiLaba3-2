@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6197f5e6-3d8c-4451-bf4d-9a3c64135dbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/data/network/ApiFactoryUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/data/network/weather/Weather.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/data/network/weather/WeatherApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/data/network/weather/WeatherApiFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/data/network/weather/WeatherResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data/network/places/Place.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data/network/places/PlacesApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data/network/places/PlacesApiFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data/network/places/PlacesResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/data/LocationsApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/LocationsApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/data/LocationsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/LocationsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data/network/geocoding/GeocodingApiFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/network/geocoding/GeocodingApiFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,11 +81,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/data/network/weather" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/data/network/places" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/data/network/places" />
+      <recent name="$PROJECT_DIR$/src/main/java/data/network" />
       <recent name="$PROJECT_DIR$/src/main/java/data/network/weather" />
     </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
@@ -131,22 +130,25 @@
       <option name="presentableId" value="Default" />
       <updated>1641485333701</updated>
       <workItem from="1641485337686" duration="8663000" />
-      <workItem from="1641553173747" duration="2836000" />
+      <workItem from="1641553173747" duration="3241000" />
+      <workItem from="1641574251081" duration="1175000" />
+      <workItem from="1641983348813" duration="12648000" />
     </task>
+    <task id="LOCAL-00001" summary="weather">
+      <created>1641560206373</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1641560206373</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/data/network/SampeParallelExeution.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="weather" />
+    <option name="LAST_COMMIT_MESSAGE" value="weather" />
   </component>
 </project>
