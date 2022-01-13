@@ -2,14 +2,20 @@ package data.network.places;
 
 import com.google.gson.annotations.SerializedName;
 
-import java.util.List;
-
 public class Place {
 
     @SerializedName("properties")
-    public String name;
+    public Props name;
 
-    @SerializedName("features")
+    @SerializedName("id")
     public String id;
 
+    public String getName() {
+        return name.name;
+    }
+
+    private class Props {
+        @SerializedName("name")
+        public String name;
+    }
 }

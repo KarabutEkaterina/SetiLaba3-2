@@ -6,8 +6,8 @@ import java.util.List;
 
 public class PlacesResponse {
 
-    @SerializedName("place")
-    public List<Place> place = null;
+    @SerializedName("features")
+    public List<Place> place;
 }
 
 

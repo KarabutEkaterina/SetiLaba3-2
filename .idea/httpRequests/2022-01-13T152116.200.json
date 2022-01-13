@@ -1,0 +1,557 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "13450569",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0,
+          46.732498
+        ]
+      },
+      "properties": {
+        "xid": "Q4733872",
+        "name": "Almon Asbury Lieuallen House",
+        "dist": 17.76660869,
+        "rate": 7,
+        "wikidata": "Q4733872",
+        "kinds": "historic_architecture,architecture,interesting_places,other_buildings_and_structures"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12505130",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.001038,
+          46.732357
+        ]
+      },
+      "properties": {
+        "xid": "Q42518749",
+        "name": "Vandal Theatre",
+        "dist": 66.61683153,
+        "rate": 1,
+        "wikidata": "Q42518749",
+        "kinds": "cinemas,cultural,theatres_and_entertainments,interesting_places"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13455047",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.999001,
+          46.7328
+        ]
+      },
+      "properties": {
+        "xid": "Q6915476",
+        "name": "Moscow City Hall",
+        "dist": 100.16669871,
+        "rate": 7,
+        "wikidata": "Q6915476",
+        "kinds": "historic_architecture,architecture,interesting_places,other_buildings_and_structures"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8657309",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.999168,
+          46.733334
+        ]
+      },
+      "properties": {
+        "xid": "N358669414",
+        "name": "Saint Marks Episcopal Church",
+        "dist": 129.91343009,
+        "rate": 1,
+        "osm": "node/358669414",
+        "kinds": "religion,other_temples,interesting_places"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3487562",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.001175,
+          46.731205
+        ]
+      },
+      "properties": {
+        "xid": "N4371622394",
+        "name": "Pritchard Art Gallery",
+        "dist": 152.52628511,
+        "rate": 1,
+        "osm": "node/4371622394",
+        "kinds": "museums,cultural,interesting_places,art_galleries"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13451706",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0,
+          46.730801
+        ]
+      },
+      "properties": {
+        "xid": "Q5108753",
+        "name": "Christ Church",
+        "dist": 176.92602934,
+        "rate": 2,
+        "wikidata": "Q5108753",
+        "kinds": "religion,churches,interesting_places,other_churches"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3515126",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.001175,
+          46.730721
+        ]
+      },
+      "properties": {
+        "xid": "N366079405",
+        "name": "Kenworthy Theatre",
+        "dist": 200.77525665,
+        "rate": 1,
+        "osm": "node/366079405",
+        "kinds": "cultural,theatres_and_entertainments,interesting_places,other_theatres"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8657362",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.997498,
+          46.732498
+        ]
+      },
+      "properties": {
+        "xid": "N358669439",
+        "name": "First United Methodist Church",
+        "dist": 204.08472392,
+        "rate": 1,
+        "osm": "node/358669439",
+        "kinds": "religion,other_temples,interesting_places"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8657312",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.002502,
+          46.733334
+        ]
+      },
+      "properties": {
+        "xid": "N358669416",
+        "name": "First Baptist Church",
+        "dist": 207.13652759,
+        "rate": 1,
+        "osm": "node/358669416",
+        "kinds": "religion,other_temples,interesting_places"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12866466",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.001335,
+          46.730679
+        ]
+      },
+      "properties": {
+        "xid": "Q42512530",
+        "name": "Kenworthy Performing Arts Centre",
+        "dist": 209.99173692,
+        "rate": 2,
+        "wikidata": "Q42512530",
+        "kinds": "theatres_and_entertainments,cultural,cinemas,interesting_places"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9485344",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.001175,
+          46.730541
+        ]
+      },
+      "properties": {
+        "xid": "N2494070874",
+        "name": "Nuart Theatre",
+        "dist": 219.25200264,
+        "rate": 6,
+        "osm": "node/2494070874",
+        "wikidata": "Q42518722",
+        "kinds": "cultural,cinemas,theatres_and_entertainments,interesting_places"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13406374",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.003067,
+          46.732342
+        ]
+      },
+      "properties": {
+        "xid": "Q42518713",
+        "name": "Micro Cinema",
+        "dist": 222.01555572,
+        "rate": 1,
+        "wikidata": "Q42518713",
+        "kinds": "cinemas,cultural,theatres_and_entertainments,interesting_places"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13066373",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.997498,
+          46.733334
+        ]
+      },
+      "properties": {
+        "xid": "Q55887944",
+        "name": "Moscow Carnegie Library",
+        "dist": 229.23984527,
+        "rate": 7,
+        "wikidata": "Q55887944",
+        "kinds": "historic_architecture,architecture,interesting_places,other_buildings_and_structures"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8657352",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.003609,
+          46.732498
+        ]
+      },
+      "properties": {
+        "xid": "N358669431",
+        "name": "Seventh Day Adventist Church",
+        "dist": 263.69430449,
+        "rate": 1,
+        "osm": "node/358669431",
+        "kinds": "religion,other_temples,interesting_places"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8657328",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.004166,
+          46.732498
+        ]
+      },
+      "properties": {
+        "xid": "N358669429",
+        "name": "Church of the Nazarene",
+        "dist": 306.12314352,
+        "rate": 1,
+        "osm": "node/358669429",
+        "kinds": "religion,other_temples,interesting_places"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8657319",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.999168,
+          46.729721
+        ]
+      },
+      "properties": {
+        "xid": "N358669420",
+        "name": "Our Saviors Lutheran Church",
+        "dist": 305.95972833,
+        "rate": 1,
+        "osm": "node/358669420",
+        "kinds": "religion,other_temples,interesting_places"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8657368",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.996109,
+          46.733334
+        ]
+      },
+      "properties": {
+        "xid": "N358669435",
+        "name": "Emmanuel Lutheran Church",
+        "dist": 327.21582911,
+        "rate": 1,
+        "osm": "node/358669435",
+        "kinds": "religion,other_temples,interesting_places"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8657432",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.996109,
+          46.731388
+        ]
+      },
+      "properties": {
+        "xid": "N358669448",
+        "name": "First Presbyterian Church",
+        "dist": 329.1560635,
+        "rate": 1,
+        "osm": "node/358669448",
+        "kinds": "religion,other_temples,interesting_places"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13246224",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.995834,
+          46.733055
+        ]
+      },
+      "properties": {
+        "xid": "Q55833275",
+        "name": "W. J. McConnell House",
+        "dist": 339.32276357,
+        "rate": 7,
+        "wikidata": "Q55833275",
+        "kinds": "historic_architecture,architecture,interesting_places,other_buildings_and_structures"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "850387",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.998337,
+          46.728333
+        ]
+      },
+      "properties": {
+        "xid": "N358669452",
+        "name": "Church of God",
+        "dist": 471.94386565,
+        "rate": 1,
+        "osm": "node/358669452",
+        "kinds": "religion,other_temples,interesting_places"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8657380",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.993614,
+          46.733891
+        ]
+      },
+      "properties": {
+        "xid": "N358669443",
+        "name": "Saint Marys Roman Catholic Church",
+        "dist": 528.01713948,
+        "rate": 1,
+        "osm": "node/358669443",
+        "kinds": "religion,other_temples,interesting_places"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12553556",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.987999,
+          46.7323
+        ]
+      },
+      "properties": {
+        "xid": "Q6783551",
+        "name": "Mason Cornwall House",
+        "dist": 929.8900085,
+        "rate": 6,
+        "wikidata": "Q6783551",
+        "kinds": "historic_architecture,architecture,interesting_places,other_buildings_and_structures"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8657377",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.987778,
+          46.733891
+        ]
+      },
+      "properties": {
+        "xid": "N358669445",
+        "name": "Grace Baptist Church",
+        "dist": 961.40544999,
+        "rate": 1,
+        "osm": "node/358669445",
+        "kinds": "religion,other_temples,interesting_places"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3509944",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.015457,
+          46.725113
+        ]
+      },
+      "properties": {
+        "xid": "W583356120",
+        "name": "Amphitheater",
+        "dist": 1421.70813721,
+        "rate": 1,
+        "osm": "way/583356120",
+        "kinds": "cultural,theatres_and_entertainments,interesting_places,other_theatres"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13283794",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.017998,
+          46.726398
+        ]
+      },
+      "properties": {
+        "xid": "Q14687223",
+        "name": "Memorial Gymnasium",
+        "dist": 1517.09360712,
+        "rate": 7,
+        "wikidata": "Q14687223",
+        "kinds": "historic,burial_places,interesting_places,war_memorials"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12375525",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.014999,
+          46.722401
+        ]
+      },
+      "properties": {
+        "xid": "Q7895517",
+        "name": "University of Idaho Arboretum and Botanical Garden",
+        "dist": 1587.03061247,
+        "rate": 2,
+        "wikidata": "Q7895517",
+        "kinds": "gardens_and_parks,cultural,urban_environment,interesting_places"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13046651",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.020828,
+          46.736897
+        ]
+      },
+      "properties": {
+        "xid": "Q42518735",
+        "name": "University 4",
+        "dist": 1657.21480273,
+        "rate": 1,
+        "wikidata": "Q42518735",
+        "kinds": "cinemas,cultural,theatres_and_entertainments,interesting_places"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12685299",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.983192,
+          46.721478
+        ]
+      },
+      "properties": {
+        "xid": "Q42518762",
+        "name": "Village Center Cinemas at Eastside",
+        "dist": 1776.05003608,
+        "rate": 1,
+        "wikidata": "Q42518762",
+        "kinds": "cinemas,cultural,theatres_and_entertainments,interesting_places"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4422195",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.981216,
+          46.72065
+        ]
+      },
+      "properties": {
+        "xid": "W460028795",
+        "name": "Sunset Memorial Gardens Cemetery",
+        "dist": 1949.7916402,
+        "rate": 1,
+        "osm": "way/460028795",
+        "kinds": "cemeteries,historic,burial_places,interesting_places"
+      }
+    }
+  ]
+}

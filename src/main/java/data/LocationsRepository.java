@@ -2,6 +2,7 @@ package data;
 
 import data.network.geocoding.GeocodingApi;
 import data.network.geocoding.Hit;
+import data.network.places.PlaceInfo;
 import data.network.places.PlacesApi;
 import data.network.weather.Weather;
 import data.network.weather.WeatherApi;
@@ -24,22 +25,26 @@ public class LocationsRepository {
         this.placesApi = placesApi; /*mine*/
     }
 
-    Single<List<Hit>> findPlaces(String query) {
+    public List<Hit> findPlaces(String query) {
         return geocodingApi.queryPlaces(query, GeocodingApi.API_KEY)
-                .map(response -> response.hits);
+                .map(response -> response.hits).blockingGet();
     }
 
-    Single<Weather> getWeather(Double lat, Double lon){
+    public Single<Weather> getWeather(Double lat, Double lon){
         return weatherApi.getWeather(lat, lon, WeatherApi.API_KEY)
                 .map(response -> response.weather);
     }
 
     /*mine*/
-    Single<List<Place>> getInterestingPlaces(Double lat, Double lon){
+    public Single<List<Place>> getInterestingPlaces(Double lat, Double lon){
         String lang = "en";
         Double radius = 2000.0;
-        return placesApi.whatToSee(lang, radius, lon, lat)
+        return placesApi.whatToSee(lang, radius, lon, lat, PlacesApi.API_KEY)
                 .map(response-> response.place);
+    }
+
+    public Single<PlaceInfo> getPlaceInfo(int id) {
+        return placesApi.placeInfo(id, PlacesApi.API_KEY);
     }
 
 }
